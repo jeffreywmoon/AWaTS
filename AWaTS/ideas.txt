@@ -1,0 +1,2 @@
+IDEAS:
+only the remote target/aircraft will know about other targets is lat/long/alt
