@@ -6,7 +6,8 @@ using System.Threading.Tasks;
 
 namespace AlliedAircraftSystem.Aircraft.Systems
 {
-    class FlightComputer
+    class FlightComputer 
     {
+
     }
 }

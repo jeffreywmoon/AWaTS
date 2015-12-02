@@ -6,7 +6,13 @@ using System.Threading.Tasks;
 
 namespace AlliedAircraftSystem.Aircraft.Systems
 {
-    class WeaponSystem
+    class WeaponSystem : ISystem
     {
+        public bool IsOn { get; set; } 
+
+        public void Sync()
+        {
+
+        }
     }
 }

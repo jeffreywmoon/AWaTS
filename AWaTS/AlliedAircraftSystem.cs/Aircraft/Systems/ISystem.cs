@@ -6,13 +6,10 @@ using System.Threading.Tasks;
 
 namespace AlliedAircraftSystem.Aircraft.Systems
 {
-    class RadarSystem : ISystem
+    interface ISystem
     {
-        public bool IsOn { get; set; } 
+        bool IsOn { get; set; }
 
-        public void Sync()
-        {
-
-        }
+        void Sync();
     }
 }
