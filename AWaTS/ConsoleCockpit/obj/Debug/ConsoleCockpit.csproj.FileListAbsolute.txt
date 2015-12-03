@@ -1,0 +1,8 @@
+C:\Users\DeJefe\Documents\GitHubVisualStudio\AWaTS\AWaTS\ConsoleCockpit\bin\Debug\ConsoleCockpit.exe.config
+C:\Users\DeJefe\Documents\GitHubVisualStudio\AWaTS\AWaTS\ConsoleCockpit\bin\Debug\ConsoleCockpit.exe
+C:\Users\DeJefe\Documents\GitHubVisualStudio\AWaTS\AWaTS\ConsoleCockpit\bin\Debug\ConsoleCockpit.pdb
+C:\Users\DeJefe\Documents\GitHubVisualStudio\AWaTS\AWaTS\ConsoleCockpit\obj\Debug\ConsoleCockpit.exe
+C:\Users\DeJefe\Documents\GitHubVisualStudio\AWaTS\AWaTS\ConsoleCockpit\obj\Debug\ConsoleCockpit.pdb
+C:\Users\DeJefe\Documents\GitHubVisualStudio\AWaTS\AWaTS\ConsoleCockpit\obj\Debug\ConsoleCockpit.csprojResolveAssemblyReference.cache
+C:\Users\DeJefe\Documents\GitHubVisualStudio\AWaTS\AWaTS\ConsoleCockpit\bin\Debug\AlliedAircraftSystem.dll
+C:\Users\DeJefe\Documents\GitHubVisualStudio\AWaTS\AWaTS\ConsoleCockpit\bin\Debug\AlliedAircraftSystem.pdb

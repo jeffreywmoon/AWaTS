@@ -1,0 +1,6 @@
+C:\Users\DeJefe\Documents\GitHubVisualStudio\AWaTS\AWaTS\ServerLogger\bin\Debug\ServerLogger.exe.config
+C:\Users\DeJefe\Documents\GitHubVisualStudio\AWaTS\AWaTS\ServerLogger\bin\Debug\ServerLogger.exe
+C:\Users\DeJefe\Documents\GitHubVisualStudio\AWaTS\AWaTS\ServerLogger\bin\Debug\ServerLogger.pdb
+C:\Users\DeJefe\Documents\GitHubVisualStudio\AWaTS\AWaTS\ServerLogger\obj\Debug\ServerLogger.csprojResolveAssemblyReference.cache
+C:\Users\DeJefe\Documents\GitHubVisualStudio\AWaTS\AWaTS\ServerLogger\obj\Debug\ServerLogger.exe
+C:\Users\DeJefe\Documents\GitHubVisualStudio\AWaTS\AWaTS\ServerLogger\obj\Debug\ServerLogger.pdb

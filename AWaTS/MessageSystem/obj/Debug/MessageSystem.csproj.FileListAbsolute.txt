@@ -1,0 +1,5 @@
+C:\Users\DeJefe\Documents\GitHubVisualStudio\AWaTS\AWaTS\MessageSystem\bin\Debug\MessageSystem.dll
+C:\Users\DeJefe\Documents\GitHubVisualStudio\AWaTS\AWaTS\MessageSystem\bin\Debug\MessageSystem.pdb
+C:\Users\DeJefe\Documents\GitHubVisualStudio\AWaTS\AWaTS\MessageSystem\obj\Debug\MessageSystem.csprojResolveAssemblyReference.cache
+C:\Users\DeJefe\Documents\GitHubVisualStudio\AWaTS\AWaTS\MessageSystem\obj\Debug\MessageSystem.dll
+C:\Users\DeJefe\Documents\GitHubVisualStudio\AWaTS\AWaTS\MessageSystem\obj\Debug\MessageSystem.pdb

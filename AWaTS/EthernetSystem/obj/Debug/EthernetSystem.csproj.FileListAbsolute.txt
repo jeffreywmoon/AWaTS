@@ -1,0 +1,5 @@
+C:\Users\DeJefe\Documents\GitHubVisualStudio\AWaTS\AWaTS\EthernetSystem\bin\Debug\EthernetSystem.dll
+C:\Users\DeJefe\Documents\GitHubVisualStudio\AWaTS\AWaTS\EthernetSystem\bin\Debug\EthernetSystem.pdb
+C:\Users\DeJefe\Documents\GitHubVisualStudio\AWaTS\AWaTS\EthernetSystem\obj\Debug\EthernetSystem.csprojResolveAssemblyReference.cache
+C:\Users\DeJefe\Documents\GitHubVisualStudio\AWaTS\AWaTS\EthernetSystem\obj\Debug\EthernetSystem.dll
+C:\Users\DeJefe\Documents\GitHubVisualStudio\AWaTS\AWaTS\EthernetSystem\obj\Debug\EthernetSystem.pdb

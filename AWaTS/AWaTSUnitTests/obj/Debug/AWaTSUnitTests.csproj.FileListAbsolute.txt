@@ -1,0 +1,13 @@
+C:\Users\DeJefe\Documents\GitHubVisualStudio\AWaTS\AWaTS\AWaTSUnitTests\bin\Debug\AWaTSUnitTests.dll
+C:\Users\DeJefe\Documents\GitHubVisualStudio\AWaTS\AWaTS\AWaTSUnitTests\bin\Debug\AWaTSUnitTests.pdb
+C:\Users\DeJefe\Documents\GitHubVisualStudio\AWaTS\AWaTS\AWaTSUnitTests\obj\Debug\AWaTSUnitTests.csprojResolveAssemblyReference.cache
+C:\Users\DeJefe\Documents\GitHubVisualStudio\AWaTS\AWaTS\AWaTSUnitTests\obj\Debug\AWaTSUnitTests.dll
+C:\Users\DeJefe\Documents\GitHubVisualStudio\AWaTS\AWaTS\AWaTSUnitTests\obj\Debug\AWaTSUnitTests.pdb
+C:\Users\DeJefe\Documents\GitHubVisualStudio\AWaTS\AWaTS\AWaTSUnitTests\bin\Debug\EthernetSystem.dll
+C:\Users\DeJefe\Documents\GitHubVisualStudio\AWaTS\AWaTS\AWaTSUnitTests\bin\Debug\EthernetSystem.pdb
+C:\Users\DeJefe\Documents\GitHubVisualStudio\AWaTS\AWaTS\AWaTSUnitTests\bin\Debug\AlliedAircraftSystem.dll
+C:\Users\DeJefe\Documents\GitHubVisualStudio\AWaTS\AWaTS\AWaTSUnitTests\bin\Debug\MessageSystem.dll
+C:\Users\DeJefe\Documents\GitHubVisualStudio\AWaTS\AWaTS\AWaTSUnitTests\bin\Debug\ServerLogger.exe
+C:\Users\DeJefe\Documents\GitHubVisualStudio\AWaTS\AWaTS\AWaTSUnitTests\bin\Debug\AlliedAircraftSystem.pdb
+C:\Users\DeJefe\Documents\GitHubVisualStudio\AWaTS\AWaTS\AWaTSUnitTests\bin\Debug\MessageSystem.pdb
+C:\Users\DeJefe\Documents\GitHubVisualStudio\AWaTS\AWaTS\AWaTSUnitTests\bin\Debug\ServerLogger.pdb
