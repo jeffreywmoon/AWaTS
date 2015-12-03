@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace AlliedAircraftSystem.Aircraft.Systems
 {
-    class RadarSystem 
+    public class RadarSystem 
     {
         public bool IsOn { get; set; } 
 

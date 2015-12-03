@@ -3,10 +3,11 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
+using AlliedAircraftSystem.Aircraft.Systems;
 
 namespace AlliedAircraftSystem.Aircraft
 {
-    abstract class Aircraft
+    public abstract class Aircraft
     {
         // aircraft systems
         protected Systems.FlightComputer flightComputer;
@@ -22,12 +23,21 @@ namespace AlliedAircraftSystem.Aircraft
         protected void Init()
         {
             flightComputer = new Systems.FlightComputer();
-            navSystem = new Systems.NavSystem();
             targettingSystem = new Systems.TargettingSystem();
             radarSystem = new Systems.RadarSystem();
             weaponSystem = new Systems.WeaponSystem();
 
             spec = new Specs.Spec();
+        }
+
+        public NavPackage Nav
+        {
+            get { return flightComputer.GetNavData(); }
+        }
+
+        public void InternalSync(uint interval)
+        {
+            flightComputer.NavInternalSync(interval);
         }
     }
 }

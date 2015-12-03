@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace AlliedAircraftSystem.Aircraft.Systems
 {
-    class WeaponSystem 
+    public class WeaponSystem 
     {
         public bool IsOn { get; set; } 
 

@@ -2,16 +2,20 @@
 
 namespace AlliedAircraftSystem.Aircraft.Systems
 {
-    struct NavPackage
+    public struct NavPackage
     {
-        double Lat;
-        double Lon;
-        double Alt;
-        double V;
-        double D;
-        double Pitch;
+        public double Lat;
+        public double Lon;
+        public double Alt;
+        public double V;
+        public double B;
+        public double Pitch;
+
+        // constructor to init all fields
+        public NavPackage(double lat, double lon, double alt, double v, double b, double pitch)
+        { Lat = lat;  Lon = lon; Alt = alt; V = v; B = b; Pitch = pitch; }
     }
-    class NavSystem 
+    public class NavSystem 
     {
         private double lat; // current latitude
         private double lon; // current longitude
@@ -24,20 +28,38 @@ namespace AlliedAircraftSystem.Aircraft.Systems
 
         public bool IsOn { get; set; } 
 
-        public void Sync(double lat, double lon, double alt, double v, double b, double pitch)
+        // constructor
+        public NavSystem(NavPackage startNav)
         {
-            this.lat = lat;
-            this.lon = lon;
-            this.alt = alt;
-            this.v = v;
-            this.b = b;
-            this.pitch = pitch;
+            lat = startNav.Lat;
+            lon = startNav.Lon;
+            alt = startNav.Alt;
+            v = startNav.V;
+            b = startNav.B;
+            pitch = startNav.Pitch;
+            IsOn = true;
+        }
+
+        public NavPackage GetNavData()
+        {
+            return new NavPackage(lat, lon, alt, v, b, pitch);
+        }
+
+        public void Sync(NavPackage navData)
+        {
+            lat = navData.Lat;
+            lon = navData.Lon;
+            alt = navData.Alt;
+            v = navData.V;
+            b = navData.B;
+            pitch = navData.Pitch;
         }
 
         public void InternalSync(uint interval)
         {
-            alt += v * ((MathUtilities.GetZVelocity(v, pitch) * 1000) * (interval / 100;
-            lon +=
+            alt += MathUtilities.GetDeltaAlt(MathUtilities.GetZVelocity(v, pitch), interval);
+            lon += MathUtilities.GetDeltaLon(MathUtilities.GetXVelocity(v, pitch, b), lat, interval);
+            lat += MathUtilities.GetDeltaLat(MathUtilities.GetYVelocity(v, pitch, b), interval);
         }
     }
 }

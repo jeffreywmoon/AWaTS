@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace AlliedAircraftSystem.Aircraft.Specs
 {
-    class Spec
+    public class Spec
     {
         public double MaxSpeed { get; set; }
         public double CruiseSpeed { get; set; }
