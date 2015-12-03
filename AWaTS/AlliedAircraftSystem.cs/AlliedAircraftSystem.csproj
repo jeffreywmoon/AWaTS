@@ -44,9 +44,9 @@
     <Compile Include="AircraftSystemController.cs" />
     <Compile Include="Aircraft\Aircraft.cs" />
     <Compile Include="Aircraft\F16.cs" />
+    <Compile Include="Services\MathUtilities.cs" />
     <Compile Include="Aircraft\Specs\Spec.cs" />
     <Compile Include="Aircraft\Systems\FlightComputer.cs" />
-    <Compile Include="Aircraft\Systems\ISystem.cs" />
     <Compile Include="Aircraft\Systems\NavSystem.cs" />
     <Compile Include="Aircraft\Systems\RadarSystem.cs" />
     <Compile Include="Aircraft\Systems\TargettingSystem.cs" />

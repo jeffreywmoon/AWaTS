@@ -11,5 +11,6 @@ namespace AlliedAircraftSystem
     /// </summary>
     public static class AircraftSystem
     {
+       
     }
 }

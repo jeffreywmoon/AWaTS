@@ -21,9 +21,9 @@ namespace AlliedAircraftSystem.Aircraft
             // hard coded f16 spec settings
             Init();
 
-            spec.MaxSpeed = 2414.016;
-            spec.MaxRange = 3222.48;
-            spec.CruiseSpeed = 1320.48;
+            spec.MaxRange = 3222.48; // km
+            spec.MaxSpeed = 2414.016; // kmh
+            spec.CruiseSpeed = 1320.48; // kmh
         }
     }
 }
