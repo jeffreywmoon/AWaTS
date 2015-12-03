@@ -1,0 +1,60 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 14
+VisualStudioVersion = 14.0.23107.0
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EthernetSystem", "EthernetSystem\EthernetSystem.csproj", "{B8A5EA57-E40D-461B-A91F-2F55BFB6868F}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AWaTSUnitTests", "AWaTSUnitTests\AWaTSUnitTests.csproj", "{A58CC1A0-3207-4D6B-A0BF-820CC75AE4B7}"
+	ProjectSection(ProjectDependencies) = postProject
+		{B8A5EA57-E40D-461B-A91F-2F55BFB6868F} = {B8A5EA57-E40D-461B-A91F-2F55BFB6868F}
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{689D3B8C-47E6-494C-9991-E685E34F8506}"
+	ProjectSection(SolutionItems) = preProject
+		ideas.txt = ideas.txt
+	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MessageSystem", "MessageSystem\MessageSystem.csproj", "{44870EA0-CC71-4096-9AD9-3385FF4EEF5B}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ServerLogger", "ServerLogger\ServerLogger.csproj", "{3C0E2630-D6ED-4848-B025-0BF6A5769A49}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AlliedAircraftSystem", "AlliedAircraftSystem.cs\AlliedAircraftSystem.csproj", "{A9E028E5-3152-4AE8-87A6-33D91BE2B761}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ConsoleCockpit", "ConsoleCockpit\ConsoleCockpit.csproj", "{D181B798-B92C-4CD2-BC4C-2392685B264E}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{B8A5EA57-E40D-461B-A91F-2F55BFB6868F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B8A5EA57-E40D-461B-A91F-2F55BFB6868F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B8A5EA57-E40D-461B-A91F-2F55BFB6868F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B8A5EA57-E40D-461B-A91F-2F55BFB6868F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A58CC1A0-3207-4D6B-A0BF-820CC75AE4B7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A58CC1A0-3207-4D6B-A0BF-820CC75AE4B7}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A58CC1A0-3207-4D6B-A0BF-820CC75AE4B7}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A58CC1A0-3207-4D6B-A0BF-820CC75AE4B7}.Release|Any CPU.Build.0 = Release|Any CPU
+		{44870EA0-CC71-4096-9AD9-3385FF4EEF5B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{44870EA0-CC71-4096-9AD9-3385FF4EEF5B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{44870EA0-CC71-4096-9AD9-3385FF4EEF5B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{44870EA0-CC71-4096-9AD9-3385FF4EEF5B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{3C0E2630-D6ED-4848-B025-0BF6A5769A49}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3C0E2630-D6ED-4848-B025-0BF6A5769A49}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3C0E2630-D6ED-4848-B025-0BF6A5769A49}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3C0E2630-D6ED-4848-B025-0BF6A5769A49}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A9E028E5-3152-4AE8-87A6-33D91BE2B761}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A9E028E5-3152-4AE8-87A6-33D91BE2B761}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A9E028E5-3152-4AE8-87A6-33D91BE2B761}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A9E028E5-3152-4AE8-87A6-33D91BE2B761}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D181B798-B92C-4CD2-BC4C-2392685B264E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D181B798-B92C-4CD2-BC4C-2392685B264E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D181B798-B92C-4CD2-BC4C-2392685B264E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D181B798-B92C-4CD2-BC4C-2392685B264E}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
